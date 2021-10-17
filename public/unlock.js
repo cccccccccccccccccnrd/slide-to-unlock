@@ -1,6 +1,6 @@
-import { WebGLRenderer, PerspectiveCamera, Scene, Mesh, PointLight, CubeTextureLoader, MeshStandardMaterial, SmoothShading } from 'https://cdn.jsdelivr.net/npm/three/build/three.module.js'
-import { GLTFLoader } from 'https://cdn.jsdelivr.net/npm/three/examples/jsm/loaders/GLTFLoader.js'
-import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three/examples/jsm/controls/OrbitControls.js'
+import { WebGLRenderer, PerspectiveCamera, Scene, Mesh, PointLight, CubeTextureLoader, MeshStandardMaterial, SmoothShading } from 'https://cdn.skypack.dev/three@0.128.0/build/three.module.js'
+import { GLTFLoader } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/loaders/GLTFLoader.js'
+import { OrbitControls } from 'https://cdn.skypack.dev/three@0.128.0/examples/jsm/controls/OrbitControls.js'
 
 const canvas = document.querySelector('#c')
 const scrolls = document.querySelectorAll('.s')
